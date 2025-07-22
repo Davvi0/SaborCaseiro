@@ -1,0 +1,125 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: antiquewhite;
+
+}
+
+header {
+  background: #8B0000;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  font-weight: bold;
+  text-decoration: dashed;
+}
+
+nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+}
+
+.banner {
+  background: url('https://source.unsplash.com/1600x400/?restaurant,food') center/cover;
+  color: white;
+  text-align: center;
+  padding: 100px 20px;
+}
+
+section {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+footer {
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  background: #8B0000;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+#carrossel {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.carousel {
+  position: relative;
+  max-width: 800px;
+  margin: auto;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.slides {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.slides img {
+  width: 100%;
+  flex-shrink: 0;
+}
+
+.prev, .next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(0,0,0,0.5);
+  border: none;
+  color: white;
+  font-size: 30px;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.prev { left: 10px; }
+.next { right: 10px; }
+
+#titulo { font-family: "Fjalla One", sans-serif;
+  font-weight: 400;
+  font-style: normal;}
+
+main {
+  padding: 100px 20px; /* Ajuste se tiver header fixo */
+}
+
+.cardapio-item {
+  border: 1px solid #ddd;
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 500px;
+  border-radius: 8px;
+  background: #fff;
+}
+
+
+.atalhos {
+  margin-top: px; /* Para não ficar atrás do header fixo */
+  text-align: center;
+  padding: 10px;
+  background: #8B0000;
+}
+
+.atalhos a {
+  color: #fff;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.atalhos a:hover {
+  text-decoration: underline;
+}
+
